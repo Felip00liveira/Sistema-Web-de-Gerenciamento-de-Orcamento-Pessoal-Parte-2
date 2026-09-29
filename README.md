@@ -1,21 +1,44 @@
-# 💰 Gerenciador Financeiro Pessoal - Frontend
+# Sistema Web de Gerenciamento de Orçamento Pessoal
 
-Interface web desenvolvida em **React.js** para o sistema de gerenciamento financeiro pessoal.
+## 1. Introdução
+O presente projeto tem como finalidade o desenvolvimento de um Sistema Web de Gerenciamento de Orçamento Pessoal, voltado para indivíduos e famílias que desejam organizar e controlar suas finanças de forma prática e estruturada.
+A proposta surge da necessidade de oferecer uma ferramenta simples e acessível que permita o registro de receitas e despesas, promovendo melhor controle financeiro e apoio à tomada de decisões.
 
-Este repositório contém **apenas o Front-end da aplicação**, responsável pela experiência do usuário e comunicação com a API do backend.
+## 2. Objetivo Geral
+Desenvolver uma aplicação web que permita ao usuário registrar, organizar e analisar suas informações financeiras pessoais.
 
----
+## 3. Objetivos Específicos
+- Permitir cadastro;
+- Registrar receitas e despesas manualmente;
+- Categorizar transações financeiras;
+- Calcular automaticamente o saldo disponível;
+- Permitir acompanhamento básico do histórico financeiro.
 
-## 📌 Sobre o Projeto
-
-A aplicação permite ao usuário:
-
+## 4. Descrição do Sistema
+O sistema será acessado por meio de navegador web e permitirá que cada usuário visualize suas informações financeiras de forma centralizada.
+Cada usuário poderá:
 - Criar conta
-- Fazer login
-- Gerenciar contas bancárias
-- Cadastrar categorias
-- Registrar receitas e despesas
-- Visualizar saldo financeiro
-- Acompanhar histórico de transações
+- Criar categorias de receitas e despesas;
+- Registrar transações;
+- Acompanhar o saldo de suas contas.
 
----
+## 5. Requisitos Funcionais
+O sistema deverá:
+- Permitir cadastro e login de usuários;
+- Permitir registro, edição e exclusão de transações;
+- Permitir categorização de receitas e despesas;
+- Calcular automaticamente o saldo com base nas transações registradas.
+
+## 6. Requisitos Não Funcionais
+- Acesso via navegador web moderno;
+- Interface responsiva;
+- Utilização de banco de dados relacional.
+
+## 7. Limitações do Sistema
+Não fazem parte do escopo:
+- Integração automática com bancos;
+- Realização de pagamentos ou transferências reais;
+- Integração com sistemas fiscais ou contábeis.
+
+## 8. Considerações Finais
+O sistema proposto busca oferecer uma solução simples, funcional e organizada para controle de orçamento pessoal, contribuindo para melhor planejamento financeiro e maior consciência sobre receitas e despesas.
